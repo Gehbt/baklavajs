@@ -41,7 +41,7 @@ Now you can use Baklava in your Vue application:
 
 <script setup lang="ts">
 import { BaklavaEditor, useBaklava } from "@baklavajs/renderer-vue";
-import "@baklavajs/themes/dist/syrup-dark.css";
+import "@baklavajs/themes/syrup-dark.css";
 
 const baklava = useBaklava();
 </script>

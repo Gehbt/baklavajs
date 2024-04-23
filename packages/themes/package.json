@@ -8,6 +8,10 @@
     "files": [
         "dist/**/*"
     ],
+    "exports": {
+        "./classic.css": "./dist/classic.css",
+        "./syrup-dark.css": "./dist/syrup-dark.css"
+    },
     "scripts": {
         "build": "ts-node src/build.ts"
     },

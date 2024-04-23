@@ -54,7 +54,7 @@ Now you can pass the view model to the editor component:
 
 <script setup lang="ts">
 import { BaklavaEditor, useBaklava } from "@baklavajs/renderer-vue";
-import "@baklavajs/themes/dist/syrup-dark.css";
+import "@baklavajs/themes/syrup-dark.css";
 
 const baklava = useBaklava();
 ```
